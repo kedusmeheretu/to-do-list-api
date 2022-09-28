@@ -5,7 +5,7 @@ const itemCompleted = document.querySelectorAll('.item span.completed')
 Array.from(deleteBtn).forEach((element)=>{
     element.addEventListener('click', deleteItem)
 })
-
+// Creates an array from each item/<li> and adds an event listener to each li 
 Array.from(item).forEach((element)=>{
     element.addEventListener('click', markComplete)
 })
